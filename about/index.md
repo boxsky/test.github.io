@@ -12,7 +12,7 @@ date: 2019-06-25
 ### 联系我
 
 * <i class="fa fa-envelope"></i> [zb691164836@163.com](mailto:zb691164836@163.com)
-* <i class="fa fa-qq"></i> [992600279](#)
+* <i class="fa fa-qq"></i> [691164836](#)
 
 ### 学习方法
 
@@ -35,7 +35,7 @@ date: 2019-06-25
 
 ## 版权说明
 
-主站 Blog 托管于 [Github](https://github.com/boxsky/blog)，所有文章的 [Markdown 源文件](https://github.com/fan-haobai/blog/tree/master/_posts) 均可以直接查看或下载，除非单独说明外，个人转载本站的原创内容，请遵循 [CC BY-NC-SA 3.0](http://creativecommons.org/licenses/by-nc-sa/3.0/deed.zh) 的创作共享协议。
+主站 Blog 托管于 [Github](https://github.com/boxsky/blog),个人转载本站的原创内容，请遵循 [CC BY-NC-SA 3.0](http://creativecommons.org/licenses/by-nc-sa/3.0/deed.zh) 的创作共享协议。
 
 ## 其他
 
