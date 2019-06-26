@@ -1,0 +1,57 @@
+{
+  "define": {
+    "readed": "已读",
+    "reading": "在读",
+    "wanted": "想读"
+  },
+  "contents": {
+    "readed": [
+      {
+        "title": "愿有人陪你颠沛流离",
+        "cover": "https://img0.fanhaobai.com/douban/lpic/s27317967.jpg",
+        "review": "这本书是我离校时，一位学妹赠送的。卢思浩出品，可以跟随作者的脚步融入另一个世界，品味他的人生经历，我也喜欢自己的人生如书名一样，有人陪我颠沛流离。",
+        "score": "6.8",
+        "doubanLink": "https://book.douban.com/subject/25921293/"
+      },
+      {
+        "title": "参与感",
+        "cover": "https://img2.fanhaobai.com/douban/lpic/s27359667.jpg",
+        "review": "小米联合创始人黎万强所著，是小米营销方式的真实写照，通过这本书，可以了解到小米内部的真实运作情况。",
+        "score": "7.5",
+        "doubanLink": "https://book.douban.com/subject/25942507/"
+      },
+      {
+        "title": "淘宝技术这十年",
+        "cover": "https://img1.fanhaobai.com/douban/lpic/s26713863.jpg",
+        "review": "",
+        "score": "7.3",
+        "doubanLink": "https://book.douban.com/subject/24335672/"
+      }
+    ],
+    "reading": [
+      {
+        "title": "富爸爸穷爸爸",
+        "cover": "https://img0.fanhaobai.com/douban/lpic/s27274192.jpg",
+        "review": "",
+        "score": "8.5",
+        "doubanLink": "https://book.douban.com/subject/25816940/"
+      },
+      {
+        "title": "大型网站技术架构",
+        "cover": "https://img2.fanhaobai.com/douban/lpic/s27250675.jpg",
+        "review": "",
+        "score": "7.9",
+        "doubanLink": "https://book.douban.com/subject/25723064/"
+      }
+    ],
+    "wanted": [
+      {
+        "title": "代码大全（第2版）",
+        "cover": "https://img1.fanhaobai.com/douban/lpic/s1495029.jpg",
+        "review": "",
+        "score": "9.3",
+        "doubanLink": "https://book.douban.com/subject/1477390/"
+      }
+    ]
+  }
+}
