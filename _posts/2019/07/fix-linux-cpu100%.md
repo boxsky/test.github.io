@@ -7,7 +7,7 @@ date: 2019/7/22 10:46:25
 ```
 $  top
 ```
-![服务器进程](./fix-linux-cpu100%/1.png "服务器进程")
+![服务器进程](http://img.zhaobo.top/2019/07/fix-linux-cpu100%/1.png "服务器进程")
 
 #### 这个HT8sUy71的进程占用快要达到200%,因为我是双核服务器（2cpu）,我的第一反应是kill掉这个进程,当我kill掉这个进程之后cpu里面降下来
 ```
@@ -18,9 +18,9 @@ $  kill -9 进程id
 $ crontab -l
 ```
 #### 发现了一个奇怪的定时任务,不过很明显这是一个向远程服务器请求下载sh脚本的定时任务,查看内容如下
-![定时任务](./fix-linux-cpu100/2.png "定时任务")
-![定时任务](./fix-linux-cpu100/3.png "定时任务")
-![定时任务](./fix-linux-cpu100/4.png "定时任务")
+![定时任务](http://img.zhaobo.top/2019/07/fix-linux-cpu100%/2.png "定时任务")
+![定时任务](http://img.zhaobo.top/2019/07/fix-linux-cpu100%/3.png "定时任务")
+![定时任务](http://img.zhaobo.top/2019/07/fix-linux-cpu100%/4.png "定时任务")
 
 
 
