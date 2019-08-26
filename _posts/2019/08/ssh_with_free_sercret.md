@@ -22,6 +22,7 @@ ssh-keygen
 ![sshkey](http://img.zhaobo.top/2019/08/ssh_with_free_sercret/1.png "sshkey")
 > 连续enter，可以在当前系统用户文件夹的.ssh文件夹下生成公私钥文件（默认为id_rsa、id_rsa.pub，其中id_rsa为私钥文件、id_rsa.pub为公钥文件） 
 > 这里我在windows下使用的是 [cmder](https://cmder.net)命令行工具,还比较好用,当你的电脑装了git之后你就可以使用 `ssh-keygen`命令
+
 - 将公钥文件(.ssh文件夹中的id_rsa.pub文件)中的内容,拷贝到服务器端`~/.ssh`下的`authorized_keys`中 若`authorized_keys`文件不存在请先自行创建
 ![id_rsa.pub](http://img.zhaobo.top/2019/08/ssh_with_free_sercret/2.png "id_rsa.pub")
 - 此刻不出意外的话,就可以进行免密登录了
