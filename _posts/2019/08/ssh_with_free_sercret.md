@@ -37,7 +37,7 @@ Host box #指定别名
     Hostname ip或者域名
     Port 22 #ssh默认端口
     User username #指定用户名 我这里用的是root
-    IdentityFile id_rsa    #指定私钥文件路径
+    IdentityFile C:/Users/box/.ssh/Id_rsa    #指定私钥文件路径
 ```
 - 保存之后,就可以使用别名直接登录
 ```
