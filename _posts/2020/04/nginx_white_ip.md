@@ -17,34 +17,31 @@ categories:
  
 ## 具体操作
 > 一般来说,nginx的配置文件,nginx.conf通过include引入某一文件夹下的所有以.conf结尾的配置文件 `include /www/server/panel/vhost/nginx/*.conf;`
-- 打开当前项目的ng配置 xx.conf 
+- 打开当前项目对应的ng配置 xx.conf 
 - 配置一下内容
 ```bash
-location / {
-                allow xxx.xxx.xxx.xx;
-                allow xxx.xxx.xxx.xx;
-                deny  all;
-}
+    allow xxx.xxx.xxx.xx;
+    allow xxx.xxx.xxx.xx;
+    deny  all;
 ```
 > 如果有伪静态存在 放在一起即可
 
 - 配置完成如下
 
-![nginx配置白名单](http://img.zhaobo.top/2020/04/nginx_white_ip/white_ip.png "nginx配置白名单")
+![nginx配置白名单](http://img.zhaobo.top/2020/04/nginx_white_ip/nginx_ip.png "nginx配置白名单")
 
 ### 相关配置命令
 
-- 白名单设置，访问根目录 
+- 白名单设置，所有目录统一规则(这样就不用放在location里面了)
 ```bash
-location / {
-                allow 123.34.22.155;
-                allow 33.56.32.1/100;
-                deny  all;
-}
+
+    allow 123.34.22.155;
+    deny  all;
+
 ```
 
 
-- 黑名单设置，访问根目录 
+- 黑名单设置，根目录限制 
 ```bash
 location / {
                 deny 123.34.22.155;
