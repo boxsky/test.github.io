@@ -1,4 +1,13 @@
-### Linux虚拟机网卡配置
+---
+title: Linux虚拟机网卡配置
+date: 2020-08-18 14:32:09  
+tags:
+- linux
+- 虚拟机
+- 网卡
+categories:
+- linux
+---
 
 > 查看网卡当前ip,以及要修改的网卡名称
 
