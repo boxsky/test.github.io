@@ -17,6 +17,7 @@ ifconfig
 ![linux虚拟机网卡信息](http://img.zhaobo.top/2020/08/network/ifconfig.png "linux虚拟机网卡信息")
 
 > 进入目录/etc/sysconfig/network-scripts/,ls查看找到你要修改的网卡名称
+
 ![linux虚拟机网卡信息](http://img.zhaobo.top/2020/08/network/1.png "linux虚拟机网卡信息")
 
 ```bash
